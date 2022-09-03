@@ -13,5 +13,6 @@ Console.Write("Введите начальное любое целое числ�
 int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите конечное любое целое число: ");
 int n = Convert.ToInt32(Console.ReadLine());
+// int sum = SumElements(4, 8);
 int sum = SumElements(m, n);
 Console.WriteLine($"Сумма элементов = {sum}");
